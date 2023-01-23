@@ -571,6 +571,13 @@ link {
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
+
+  transition: background-color var(--transition-duration)
+    var(--transition-timing-function);
+}
+
+.subscribe-button:hover .subscribe-button:focus {
+  background-color: var(--pressed-state);
 }
 
 .submit-icon {
