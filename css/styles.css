@@ -501,10 +501,12 @@ link {
 
 .subscribe-form {
   display: flex;
+  margin-left: 80px;
 }
 
 .subscribe-label {
-  display: inline-block;
+  display: block;
+  position: absolute;
 
   font-family: inherit;
   font-weight: 500;
@@ -515,6 +517,10 @@ link {
 }
 
 .subscribe-input {
+  display: block;
+  position: relative;
+  top: 40px;
+
   width: 264px;
   margin-right: 24px;
   padding: 8px 16px;
@@ -547,6 +553,9 @@ link {
 
 .subscribe-button {
   display: flex;
+  position: relative;
+  top: 40px;
+
   width: 165px;
   height: 40px;
   margin-left: 24px;
