@@ -499,6 +499,10 @@ link {
   background-color: var(--success);
 }
 
+.subscribe-form {
+  display: flex;
+}
+
 /* Portfolio main */
 
 .portfolio {
