@@ -503,6 +503,27 @@ link {
   display: flex;
 }
 
+.subscribe-label {
+  font-family: inherit;
+  color: #fff;
+}
+
+.subscribe-input {
+  width: 264px;
+  margin-right: 24px;
+  padding: 8px 16px;
+
+  background-color: transparent;
+  color: var(--light-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: unset;
+
+  transition: border var(--transition-duration)
+    var(--transition-timing-function);
+}
+
 /* Portfolio main */
 
 .portfolio {
