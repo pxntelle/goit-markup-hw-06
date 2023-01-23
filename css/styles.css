@@ -699,6 +699,7 @@ link {
   transition: opacity var(--transition-duration)
     var(--transition-timing-function);
 }
+
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
@@ -721,6 +722,7 @@ link {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+
 .modal-button {
   display: flex;
   align-items: center;
@@ -743,16 +745,38 @@ link {
     color var(--transition-duration) var(--transition-timing-function),
     var(--transition-duration) var(--transition-timing-function);
 }
-.modal-icon {
+
+.modal-close-icon {
   width: 8px;
   height: 8px;
   fill: currentColor;
 }
+
 .modal-button:hover,
 .modal-button:focus {
   background-color: var(--pressed-state);
   color: #fff;
   border: transparent;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.modal-text {
+  margin-bottom: 14px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--dark);
 }
 
 .modal-field {
@@ -779,4 +803,8 @@ link {
 
 .modal-icon .icon {
   position: inline-block;
+}
+
+.modal-field:focus-within .modal-icon {
+  fill: var(--primary-brand);
 }
