@@ -755,7 +755,28 @@ link {
   border: transparent;
 }
 
+.modal-field {
+  position: relative;
+  margin-bottom: 8px;
+}
+.modal-field:last-of-type {
+  margin-bottom: 24px;
+}
+
 .modal-icon {
+  display: flex;
+  position: absolute;
+
   width: 16px;
   height: 16px;
+  left: 16px;
+  top: 14px;
+  display: flex;
+
+  fill: var(--dark);
+  transition: fill var(--transition-duration) var(--transition-timing-function);
+}
+
+.modal-icon .icon {
+  position: inline-block;
 }
