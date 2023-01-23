@@ -823,3 +823,9 @@ link {
 .modal-field:focus-within .modal-icon {
   fill: var(--primary-brand);
 }
+
+.icon-check {
+  width: 10px;
+  height: 8px;
+  fill: currentColor;
+}
