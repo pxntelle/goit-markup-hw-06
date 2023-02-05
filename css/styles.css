@@ -879,8 +879,12 @@ link {
   display: flex;
 }
 
-.check-text:before {
-  content: "";
+.check-text span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+
   height: 16px;
   width: 16px;
   border: 1.25px solid var(--dark);
@@ -893,10 +897,8 @@ link {
       var(--transition-timing-function);
 }
 
-.form-checkbox:checked + .check-text:before {
+.form-checkbox:checked + .check-text span {
   background-color: var(--pressed-state);
   border: none;
-  background-image: url(../images/symbol-defs.svg#icon-tick);
-  background-position: center;
-  background-repeat: no-repeat;
+  fill: #fff;
 }
