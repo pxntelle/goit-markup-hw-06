@@ -847,11 +847,6 @@ link {
   transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
-.modal-icon:nth-child(1) {
-  width: 12px;
-  height: 12px;
-}
-
 .modal-icon .icon {
   position: inline-block;
 }
