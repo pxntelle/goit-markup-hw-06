@@ -872,6 +872,26 @@ link {
   fill: currentColor;
 }
 
-.privacy-policy {
-  
+.check-text {
+  font-size: 12px;
+  font-weight: 500px;
+  color: #757575;
+  display: flex;
+}
+
+.check-text:before {
+  content: "";
+  height: 16px;
+  width: 16px;
+  border: 1.25px solid var(--dark);
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.form-checkbox:checked + .check-text:before {
+  background-color: var(--pressed-state);
+  border: none;
+  background-image: url(../images/symbol-defs.svg#icon-tick);
+  background-position: center;
+  background-repeat: no-repeat;
 }
