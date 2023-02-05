@@ -886,6 +886,11 @@ link {
   border: 1.25px solid var(--dark);
   border-radius: 2px;
   margin-right: 8px;
+
+  transition: color var(--transition-duration) var(--transition-timing-function),
+    border var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration)
+      var(--transition-timing-function);
 }
 
 .form-checkbox:checked + .check-text:before {
