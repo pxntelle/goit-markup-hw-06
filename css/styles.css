@@ -811,6 +811,13 @@ link {
   border-radius: 4px;
 
   padding-left: 38px;
+  padding-right: 19px;
+}
+
+.modal-input:focus,
+.modal-area:focus {
+  outline: none;
+  border: 1px solid var(--primary-brand);
 }
 
 .modal-field {
@@ -821,6 +828,13 @@ link {
 .modal-area {
   padding-left: 16px;
   padding-top: 8px;
+  margin-bottom: 16px;
+
+  width: 360px;
+  height: 120px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 .modal-area::placeholder {
@@ -837,11 +851,6 @@ link {
   left: 19px;
   top: 50%;
   transform: translateY(-50%);
-
-  /* width: 16px;
-  height: 16px; */
-  /* left: 16px;
-  top: 14px; */
 
   fill: var(--dark);
   transition: fill var(--transition-duration) var(--transition-timing-function);
