@@ -898,3 +898,11 @@ link {
 .icon-check {
   color: #fff;
 }
+
+.check-text link {
+  color: var(--primary-brand);
+}
+
+.check-text link:active {
+  color: #404bbf;
+}
