@@ -514,7 +514,6 @@ link {
   top: 40px;
 
   width: 264px;
-  /* margin-right: 24px; */
   padding: 8px 16px;
 
   background-color: transparent;
@@ -704,9 +703,6 @@ link {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  /* display: flex; */
-  /* justify-content: right; */
-
   min-height: 576px;
   width: 408px;
   padding: 72px 24px 24px;
@@ -718,10 +714,7 @@ link {
 }
 
 .modal-button {
-  /* display: block; */
   position: absolute;
-  /* align-items: center;
-  justify-content: center; */
 
   width: 24px;
   height: 24px;
@@ -734,8 +727,6 @@ link {
 
   cursor: pointer;
 
-  /* margin-top: 24px;
-  margin-right: 24px; */
   color: #000;
   transition: background-color var(--transition-duration)
       var(--transition-timing-function),
@@ -757,14 +748,8 @@ link {
 }
 
 .modal-text {
-  /* display: block; */
-  /* position: absolute; */
-  /* margin-top: 48px;
-  margin-right: 18px;
-  margin-left: 18px; */
   margin-bottom: 14px;
 
-  /* font-family: inherit; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -774,18 +759,6 @@ link {
 
 .modal-form {
   display: block;
-  /* position: relative;
-
-  margin-left: auto;
-  margin-right: auto;
-
-  margin-top: 110px;
-
-  flex-direction: column;
-  font-family: inherit;
-
-  font-weight: 400;
-  font-size: 12px; */
 }
 
 .modal-label {
@@ -857,7 +830,6 @@ link {
 }
 
 .modal-icon {
-  /* display: flex; */
   position: absolute;
   left: 19px;
   top: 50%;
